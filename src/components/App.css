@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #000000;
+}
+.app_wrap {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 20px;
+	background-color: rgba(0,0,0,0.1);
+}
+.app_title {
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 32px;
+	text-align: center;
+}
+.gallery_items {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.gallery_item {
+	display: flex;
+	width: 30%;
+	max-width: 320px;
+	margin-bottom: 40px;
+	padding-bottom: 6px;
+	background-color: #ffffff;
+	border-radius: 8px;
+}
+.gallery_message {
+	color: tomato;
+}

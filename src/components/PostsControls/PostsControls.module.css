@@ -1,0 +1,36 @@
+.posts_controls {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.autorefresh_btn {
+	margin-bottom: 25px;
+	padding: 10px 14px;
+	border: none;
+	border-radius: 4px;
+	background-color: cadetblue;
+	color: white;
+	cursor: pointer;
+}
+.autorefresh_btn:hover,
+.autorefresh_btn:focus,
+.autorefresh_btn:active {
+	background-color: darkcyan;
+}
+.autorefresh_slide_wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.autorefresh_slide {
+	width: 65%;
+	max-width: 480px;
+	margin-right: 20px;
+}
+.autorefresh_post_count {
+	font-size: 20px;
+	margin-bottom: 6px;
+}
