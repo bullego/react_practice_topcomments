@@ -21,7 +21,7 @@ const PostsControls = ({updateAutoRefresh,
 							 step={5}
 							 defaultValue={minPostComments}
 							 onChange={setMinPostComments}/> 
-							 
+				
 				<p className={stl.autorefresh_post_count}>current filter: {minPostComments}</p>
 			</div>
 		</div>
